@@ -149,9 +149,81 @@ button:hover{
 
 
 /* section3 css */
-
-.section3 .image img{
-    width: 100%;
-    height: 100vh;
+.container{
+    margin:0% 6% ;
 }
+.cont-content{
+    margin: 60px auto;
+    width: 80%;
+}
+.cont-content img{
+    width: 450px;
+    height: 300px;
+    float: left;
+    border:2px solid;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.cont-content .text{
+    padding-top: 50px;
+}
+.cont-content .text h1{
+    font-size: 50px;
+    padding: 10px;
+}
+.cont-content .text p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+/* container1 */
+.container1{
+    margin:0% 6% ;
+}
+.cont-content1{
+    margin: 180px auto;
+    width: 80%;
+}
+.cont-content1 img{
+    width: 450px;
+    height: 300px;
+    float: right;
+    border:2px solid;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.cont-content1 .text1{
+    padding-top: 50px;
+}
+.cont-content1 .text1 h1{
+    font-size: 50px;
+    padding: 10px;
+}
+.cont-content1 .text1 p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+/* Galery section */
+.galary{
+    object-fit: contain;
+    display: flex;
+    align-items: center center;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+.galary img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid#ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 5px 30px;
+    transition: 400ms;
+}
+.galary img:hover{
+    transform: scale(1.05);
+}
+
 
