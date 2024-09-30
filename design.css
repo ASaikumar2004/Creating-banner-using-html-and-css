@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    animation: back 2s infinite;
+}
+svg path:nth-child(1){
+    stroke-dasharray: 860px;
+    stroke-dashoffset: 860px;
+    animation: sai 2s linear forwards;
+}
+svg path:nth-child(2){
+    stroke-dasharray: 1330px;
+    stroke-dashoffset: 1330px;
+    animation: sai 2s linear forwards;
+}
+svg path:nth-child(3){
+    stroke-dasharray: 1900px;
+    stroke-dashoffset: 1900px;
+    animation: sai 2s linear forwards;
+}
+@keyframes sai{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 100%;
+        stroke-dasharray: 0;
+    }
+}
+@keyframes back{
+    0%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: aqua;
+    }
+}
+
+
+
+/*  
+.main{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: circle 5s infinite;
+    position: relative;
+
+}
+
+@keyframes circle{
+    0%{
+        top: 0%;
+        left: 0%;
+        background-color: red;
+    }
+    25%{
+        top: 0px;
+        left: 1385px;
+        background-color: blueviolet;
+    }
+    50%{
+        top: 580px ;
+        left: 1385px;
+        background-color: aquamarine;
+    }
+    75%{
+        top:580px ;
+        left: 0px;
+    }       
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: red;
+    }
+}
+ */
