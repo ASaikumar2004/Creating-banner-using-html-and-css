@@ -8,20 +8,32 @@ body{
     animation: back 2s infinite;
 }
 svg path:nth-child(1){
-    stroke-dasharray: 860px;
-    stroke-dashoffset: 860px;
-    animation: sai 2s linear forwards;
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500PX;
+    animation: sai 5s infinite;
 }
 svg path:nth-child(2){
-    stroke-dasharray: 1330px;
-    stroke-dashoffset: 1330px;
-    animation: sai 2s linear forwards;
+    stroke-dasharray: 1550px;
+    stroke-dashoffset: 1550PX;
+    animation: sai 5s infinite;
 }
 svg path:nth-child(3){
-    stroke-dasharray: 1900px;
-    stroke-dashoffset: 1900px;
-    animation: sai 2s linear forwards;
+    stroke-dasharray: 1800px;
+    stroke-dashoffset: 1800PX;
+    animation: sai 5s infinite;
 }
+svg path:nth-child(4){
+    stroke-dasharray: 750px;
+    stroke-dashoffset: 750PX;
+    animation: sai 5s infinite;
+}
+svg path:nth-child(5){
+    stroke-dasharray: 850px;
+    stroke-dashoffset:850PX ;
+    animation: sai 5s infinite;
+
+}
+
 @keyframes sai{
     0%{
         stroke-dashoffset: 0;
